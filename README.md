@@ -2,7 +2,7 @@
 Rangkaian sistem peringatan dini kenaikan debit air bertingkat berbasis probe konduktor tembaga dan pensaklaran komponen diskrit dengan indikator LED serta alarm buzzer.
 
 # Sistem Sensor Pendeteksi Banjir 3-Level Berbasis Transistor Diskrit
-*(Proyek Praktikum Instrumentasi Elektronika - Politeknik Elektronika Negeri Surabaya)*
+*(Proyek Praktikum Rangkaian Elektronika - Politeknik Elektronika Negeri Surabaya)*
 
 ## 📝 Deskripsi Proyek
 Proyek ini mengimplementasikan rangkaian elektronika analog diskrit untuk mendeteksi kenaikan level permukaan air secara bertahap (3 tingkatan) sebagai sistem peringatan dini banjir. Rangkaian dirancang dan disimulasikan menggunakan software NI Multisim dengan memanfaatkan karakteristik transistor sebagai sakelar elektronik (*switching*).
