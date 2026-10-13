@@ -13,7 +13,8 @@ Proyek ini mengimplementasikan rangkaian elektronika analog diskrit untuk mendet
 - **Tegangan Sumber (VCC):** 5.0 Volt DC.
 - **Logika Sensor (Probe Tembaga):** Disimulasikan menggunakan sakelar interaktif (`air_low`, `air_mid`, `air_high`). Ketika air menyentuh probe tembaga, jalur sirkuit akan tertutup (logika sakelar aktif).
 - **Transistor Switching:** 4x NPN Transistor **BC547BP** sebagai pengendali arus ke beban indikator.
-- **Resistor Pembatas:** Resistor basis \(10\text{ k}\Omega\) untuk proteksi kaki transistor dan \(330\ \Omega\) untuk pembatas arus LED.
+- **Resistor Pembatas:** Resistor basis 10 kΩ untuk proteksi kaki transistor dan 330 Ω untuk pembatas arus LED.
+
 
 ## 🎛️ Logika Indikator Tingkatan Air
 1. **Level 1 (air_low):** Saat air menyentuh probe terendah, transistor Q3 aktif dan menyalakan **LED 1 (Hijau)**.
@@ -21,4 +22,4 @@ Proyek ini mengimplementasikan rangkaian elektronika analog diskrit untuk mendet
 3. **Level 3 (air_high):** Saat air mencapai batas tertinggi, transistor Q2 aktif menyalakan **LED 3 (Merah)** sekaligus memicu transistor Q4 untuk membunyikan **Buzzer 1 kHz** sebagai alarm tanda bahaya.
 
 ## 📷 Skema Rangkaian (NI Multisim)
-![Skematik Rangkaian](./skematik-sensor-banjir.png)
+![Skematik Rangkaian](./image.png)
