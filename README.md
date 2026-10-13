@@ -14,7 +14,7 @@ Proyek ini mengimplementasikan rangkaian elektronika analog diskrit untuk mendet
 - **Logika Sensor (Probe Tembaga):** Disimulasikan menggunakan sakelar interaktif (`air_low`, `air_mid`, `air_high`). Ketika air menyentuh probe tembaga, jalur sirkuit akan tertutup (logika sakelar aktif).
 - **Transistor Switching:** 4x NPN Transistor **BC547BP** sebagai pengendali arus ke beban indikator.
 - **Resistor Pembatas:** Resistor basis 10 kΩ untuk proteksi kaki transistor dan 330 Ω untuk pembatas arus LED.
-
+- **File Mentah Simulasi:** Tersedia di repositori ini (`project banjir.ms14`) untuk pengujian sirkuit interaktif langsung di NI Multisim.
 
 ## 🎛️ Logika Indikator Tingkatan Air
 1. **Level 1 (air_low):** Saat air menyentuh probe terendah, transistor Q3 aktif dan menyalakan **LED 1 (Hijau)**.
